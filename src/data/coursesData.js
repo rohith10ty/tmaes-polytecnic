@@ -22,7 +22,7 @@ export const COURSES = [
       qualification: 'M.Tech, Ph.D in Computer Science',
       experience: '22+ Years in Academic & Industry Consulting',
       email: 'cse.hod@tmaespolytechnic.edu.in',
-      photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80'
+      photo: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=500&auto=format&fit=crop&q=80'
     },
     outcomes: [
       'Architect, develop, and deploy responsive web and enterprise software applications.',
@@ -95,7 +95,7 @@ export const COURSES = [
       qualification: 'M.Tech (AI & Robotics), B.E (CSE)',
       experience: '16+ Years Experience, Former Data Engineer at Bosch',
       email: 'aiml.hod@tmaespolytechnic.edu.in',
-      photo: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80'
+      photo: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80'
     },
     outcomes: [
       'Master data preparation, statistical cleaning, and visualization using NumPy, Pandas, and Matplotlib.',
@@ -167,7 +167,7 @@ export const COURSES = [
       qualification: 'M.Tech (Thermal Engg), Ph.D (Advanced Manufacturing)',
       experience: '25+ Years in Manufacturing Education & Research',
       email: 'mech.hod@tmaespolytechnic.edu.in',
-      photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80'
+      photo: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80'
     },
     outcomes: [
       'Create 2D/3D industrial component blueprints using AutoCAD, SolidWorks, and CATIA.',
@@ -231,7 +231,7 @@ export const COURSES = [
     rating: 4.8,
     reviewsCount: 195,
     featured: true,
-    image: 'https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?w=1000&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1000&auto=format&fit=crop&q=80',
     tagline: 'Engineer sustainable modern infrastructure, surveying, structural design, and construction management.',
     description: 'Hands-on practical training covering total station surveying, concrete technology, structural drafting, geotechnical analysis, and modern municipal infrastructure development.',
     overview: 'The Civil Engineering department trains students to transform blueprint concepts into enduring infrastructure. With cutting-edge equipment including electronic Total Stations, GPS surveying equipment, universal testing machines, and environmental engineering labs, students acquire industry-grade competencies.',
@@ -241,7 +241,7 @@ export const COURSES = [
       qualification: 'M.Tech (Structural Engineering), FIE',
       experience: '20+ Years in Infrastructure Projects & Academics',
       email: 'civil.hod@tmaespolytechnic.edu.in',
-      photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80'
+      photo: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?w=500&auto=format&fit=crop&q=80'
     },
     outcomes: [
       'Conduct precision land and aerial surveys using modern Total Station and GPS systems.',
@@ -523,7 +523,7 @@ export const COURSES = [
     rating: 4.92,
     reviewsCount: 130,
     featured: false,
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?w=1000&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1000&auto=format&fit=crop&q=80',
     tagline: 'The synergy of mechanical engineering, electronic sensing, robotics, and industrial automation.',
     description: 'Prepares students for Industry 4.0 environments, combining robotic arms, pneumatic valves, sensors, PLCs, and SCADA monitoring.',
     overview: 'Modern factories rely on integrated electromechanical systems. The Mechatronics program empowers students to bridge mechanical machinery and software automation, training them in multi-axis robotic arms, industrial vision systems, and automated sorting conveyors.',

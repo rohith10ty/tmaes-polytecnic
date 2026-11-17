@@ -90,7 +90,7 @@ export default function AboutPage() {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden shadow-card border border-slate-200">
                 <img
-                  src="https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?w=800&auto=format&fit=crop&q=80"
+                  src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop&q=80"
                   alt="TMAES Polytechnic Main Building"
                   className="w-full h-80 object-cover"
                 />

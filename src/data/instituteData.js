@@ -54,28 +54,28 @@ export const LEADERSHIP = [
     name: 'Sri Dr. Shivamurthy Shivacharya Mahaswamiji',
     role: 'Chief Patron & President, TMAE Society',
     qualification: 'Spiritual Guide & Education Philanthropist',
-    image: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=600&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&auto=format&fit=crop&q=80',
     quote: 'Technical education is the most potent catalyst to empower youth with self-reliance, ethical grounding, and nation-building capabilities.'
   },
   {
     name: 'Dr. H. M. Veerabhadraiah',
     role: 'Principal & Academic Director',
     qualification: 'Ph.D, M.Tech, FIE, 28+ Years Experience',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&auto=format&fit=crop&q=80',
     quote: 'At TMAES Polytechnic, our mission is not just granting diplomas, but forging skilled, adaptable engineering technicians who solve real problems.'
   },
   {
     name: 'Prof. Geetha Shankar',
     role: 'Vice Principal & Dean of Academics',
     qualification: 'M.Tech, 22+ Years in Technical Pedagogy',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&auto=format&fit=crop&q=80',
     quote: 'We maintain rigorous standards in laboratory experimentation, continuous internal assessments, and industry internship compliance.'
   },
   {
     name: 'Mr. Rajeshwar V.',
     role: 'Head of Training & Placement',
     qualification: 'M.B.A (HR), B.E (Mech), 15+ Years in Corporate Relations',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&auto=format&fit=crop&q=80',
     quote: 'Over 120 leading engineering conglomerates and IT powerhouses conduct on-campus selections for our pre-final and final year cohorts.'
   }
 ];
