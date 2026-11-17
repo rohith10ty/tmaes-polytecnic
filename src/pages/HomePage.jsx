@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { 
   ArrowRight, 
   Cpu, 
@@ -8,7 +8,6 @@ import {
   Award, 
   CheckCircle2, 
   Layers, 
-  Sparkles, 
   Building2,
   PhoneCall,
   FileText
@@ -22,9 +21,21 @@ import { COURSES, CATEGORIES } from '../data/coursesData';
 import { HIGHLIGHTS, FACILITIES, INSTITUTE_INFO } from '../data/instituteData';
 
 export default function HomePage() {
+  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [applyModalOpen, setApplyModalOpen] = useState(false);
   const [selectedCourseForApply, setSelectedCourseForApply] = useState(null);
+
+  const quickBranches = [
+    { name: 'Computer Science', id: 'computer-science' },
+    { name: 'AI & Machine Learning', id: 'ai-machine-learning' },
+    { name: 'Mechanical Engineering', id: 'mechanical-engineering' },
+    { name: 'Civil Engineering', id: 'civil-engineering' },
+    { name: 'Electrical & Electronics', id: 'electrical-electronics' },
+    { name: 'Electronics & Comm', id: 'electronics-communication' },
+    { name: 'Automobile Engg', id: 'automobile-engineering' },
+    { name: 'Mechatronics', id: 'mechatronics-automation' },
+  ];
 
   const handleQuickApply = (courseId) => {
     setSelectedCourseForApply(courseId);
@@ -42,6 +53,28 @@ export default function HomePage() {
 
       {/* 2. Recruiter Corporate Network */}
       <RecruiterMarquee />
+
+      {/* Popular Engineering Disciplines Quick Bar (Moved further down from Hero) */}
+      <section className="py-6 bg-white border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-500 whitespace-nowrap">
+              Popular Engineering Disciplines:
+            </span>
+            <div className="flex flex-wrap items-center gap-2">
+              {quickBranches.map((branch) => (
+                <button
+                  key={branch.id}
+                  onClick={() => navigate(`/courses/${branch.id}`)}
+                  className="text-xs px-3.5 py-1.5 rounded-lg border border-slate-200 bg-slate-50/80 hover:bg-brand-blue hover:text-white hover:border-brand-blue text-brand-dark transition-all font-medium"
+                >
+                  {branch.name}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* 3. Core Pillars / Why TMAES Section */}
       <section className="py-20 bg-slate-50 border-b border-slate-200 subtle-grid-bg">
@@ -203,7 +236,7 @@ export default function HomePage() {
           <div className="bg-slate-900/90 rounded-3xl p-8 sm:p-14 border border-slate-800 flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="max-w-2xl text-left space-y-4">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-blue/20 text-blue-300 text-xs font-semibold border border-brand-blue/30">
-                <Sparkles className="w-3.5 h-3.5" />
+                <CheckCircle2 className="w-3.5 h-3.5 text-brand-blue" />
                 <span>Admissions Now Open for Academic Year 2025–26</span>
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">

@@ -5,7 +5,6 @@ import {
   RotateCcw, 
   BookOpen, 
   ShieldCheck, 
-  Sparkles,
   ArrowUpDown,
   GraduationCap
 } from 'lucide-react';

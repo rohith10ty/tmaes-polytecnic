@@ -3,7 +3,6 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import { 
   Clock, 
   Users, 
-  Star, 
   Award, 
   ShieldCheck, 
   ArrowRight, 
@@ -97,9 +96,8 @@ export default function CourseDetailsPage() {
                 </div>
                 <div>
                   <span className="text-slate-400 block">Student Rating:</span>
-                  <span className="font-bold text-brand-dark text-sm flex items-center gap-1">
-                    <Star className="w-3.5 h-3.5 fill-brand-blue text-brand-blue" />
-                    {course.rating} ({course.reviewsCount} reviews)
+                  <span className="font-bold text-brand-dark text-sm">
+                    {course.rating} / 5.0 ({course.reviewsCount} reviews)
                   </span>
                 </div>
               </div>

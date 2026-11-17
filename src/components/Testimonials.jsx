@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Quote, Star, ChevronLeft, ChevronRight, Building, CheckCircle2 } from 'lucide-react';
+import { Quote, ChevronLeft, ChevronRight, Building, CheckCircle2 } from 'lucide-react';
 import { TESTIMONIALS } from '../data/instituteData';
 
 export default function Testimonials() {
@@ -54,10 +54,9 @@ export default function Testimonials() {
 
             {/* Testimonial Quote & Identity */}
             <div className="flex-1 text-center md:text-left space-y-4">
-              <div className="flex items-center justify-center md:justify-start gap-1 text-brand-blue">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-brand-blue text-brand-blue" />
-                ))}
+              <div className="flex items-center justify-center md:justify-start gap-1.5 text-xs font-semibold text-brand-blue">
+                <CheckCircle2 className="w-3.5 h-3.5 text-brand-blue" />
+                <span>Verified Alumnus Placement Record</span>
               </div>
 
               <p className="text-base sm:text-lg text-brand-dark italic leading-relaxed font-sans">

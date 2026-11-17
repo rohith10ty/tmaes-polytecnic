@@ -59,48 +59,6 @@ export default function Navbar() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-40 w-full transition-all duration-300">
-        {/* Top Minimal Notification / Accreditation Bar */}
-        <div className="bg-brand-dark text-slate-300 border-b border-slate-800 text-[11px] sm:text-xs py-1.5 px-4 hidden md:block">
-          <div className="max-w-7xl mx-auto flex items-center justify-between">
-            <div className="flex items-center gap-4">
-              <span className="flex items-center gap-1.5 text-blue-400 font-medium">
-                <ShieldCheck className="w-3.5 h-3.5 text-brand-blue" />
-                AICTE Approved • DTE Karnataka Code: 145
-              </span>
-              <span className="text-slate-600">|</span>
-              <span className="text-slate-300">
-                Admissions Open 2025–26 (1st Year & Lateral Entry)
-              </span>
-            </div>
-
-            <div className="flex items-center gap-5 text-slate-300">
-              <a 
-                href="tel:+918394228145" 
-                className="flex items-center gap-1.5 hover:text-white transition-colors"
-              >
-                <Phone className="w-3 h-3 text-brand-blue" />
-                <span>+91 (08394) 228145</span>
-              </a>
-              <span className="text-slate-600">|</span>
-              <a 
-                href="mailto:admissions@tmaespolytechnic.edu.in" 
-                className="flex items-center gap-1.5 hover:text-white transition-colors"
-              >
-                <Mail className="w-3 h-3 text-brand-blue" />
-                <span>admissions@tmaespolytechnic.edu.in</span>
-              </a>
-              <span className="text-slate-600">|</span>
-              <Link 
-                to="/login" 
-                className="flex items-center gap-1 text-white hover:text-blue-300 transition-colors font-medium"
-              >
-                <User className="w-3 h-3 text-brand-blue" />
-                <span>Student / Staff Portal</span>
-              </Link>
-            </div>
-          </div>
-        </div>
-
         {/* Main Minimalist Sticky Navigation Bar */}
         <nav 
           className={`w-full bg-white/95 backdrop-blur-md transition-all duration-300 border-b ${

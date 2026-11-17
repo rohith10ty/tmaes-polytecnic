@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { 
   Clock, 
   Users, 
-  Star, 
   ArrowRight, 
   GraduationCap, 
   ShieldCheck,
@@ -35,8 +34,8 @@ export default function CourseCard({ course, onQuickApply }) {
 
         {/* Bottom overlay in image */}
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white">
-          <div className="flex items-center gap-1 text-xs font-semibold bg-brand-dark/80 px-2 py-0.5 rounded backdrop-blur-sm">
-            <Star className="w-3.5 h-3.5 text-brand-blue fill-brand-blue" />
+          <div className="flex items-center gap-1.5 text-xs font-semibold bg-brand-dark/80 px-2 py-0.5 rounded backdrop-blur-sm">
+            <span className="text-[10px] font-mono uppercase tracking-wider text-blue-300">Rating</span>
             <span>{course.rating}</span>
             <span className="text-slate-300 text-[10px]">({course.reviewsCount})</span>
           </div>

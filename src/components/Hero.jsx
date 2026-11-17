@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { 
   ArrowRight, 
   ShieldCheck, 
-  Sparkles, 
   Award, 
   CheckCircle2, 
   Building2, 
@@ -12,30 +11,20 @@ import {
   ChevronRight,
   GraduationCap
 } from 'lucide-react';
-import { COURSES } from '../data/coursesData';
 import ApplicationModal from './ApplicationModal';
 
 export default function Hero() {
   const [applyModalOpen, setApplyModalOpen] = useState(false);
-  const navigate = useNavigate();
-
-  const quickBranches = [
-    { name: 'Computer Science', id: 'computer-science' },
-    { name: 'AI & Machine Learning', id: 'ai-machine-learning' },
-    { name: 'Mechanical Engg', id: 'mechanical-engineering' },
-    { name: 'Civil Engg', id: 'civil-engineering' },
-    { name: 'Electrical & Electronics', id: 'electrical-electronics' },
-  ];
 
   return (
-    <section className="relative pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden bg-white subtle-grid-bg">
+    <section className="relative pt-20 pb-16 md:pt-28 md:pb-20 overflow-hidden bg-white subtle-grid-bg">
       {/* Subtle minimalist brand glow highlights */}
       <div className="absolute top-20 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-brand-blue/5 rounded-full blur-3xl pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
-          {/* Left Column: Headline, Subtext, CTAs, Quick Finder */}
+          {/* Left Column: Headline, Subtext, CTAs */}
           <div className="lg:col-span-7 space-y-6 text-left">
             
             {/* Accreditation Badge */}
@@ -82,25 +71,6 @@ export default function Hero() {
                 <GraduationCap className="w-4 h-4 text-brand-blue" />
                 <span>Apply for Admission 2025–26</span>
               </button>
-            </div>
-
-            {/* Quick Branch Finder Pills */}
-            <div className="pt-4 border-t border-slate-100">
-              <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
-                <Sparkles className="w-3.5 h-3.5 text-brand-blue" />
-                <span>Popular Engineering Disciplines:</span>
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {quickBranches.map((branch) => (
-                  <button
-                    key={branch.id}
-                    onClick={() => navigate(`/courses/${branch.id}`)}
-                    className="text-xs px-3 py-1.5 rounded-lg border border-slate-200 bg-slate-50/80 hover:bg-brand-blue hover:text-white hover:border-brand-blue text-brand-dark transition-all font-medium"
-                  >
-                    {branch.name}
-                  </button>
-                ))}
-              </div>
             </div>
 
             {/* Trust Points */}
