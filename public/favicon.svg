@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Shield Badge -->
+  <rect width="64" height="64" rx="16" fill="#0F172A" />
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#2563EB" stroke-width="2" stroke-opacity="0.4" />
+  
+  <!-- Stylized Polytechnic Monogram / Academic Gear & T -->
+  <!-- Subtle Blueprint Grid Accent -->
+  <circle cx="32" cy="32" r="22" stroke="#2563EB" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.35" />
+  
+  <!-- Engineering Hexagon / Gear Points -->
+  <path d="M32 12L45 19.5V34.5L32 42L19 34.5V19.5L32 12Z" fill="#2563EB" fill-opacity="0.15" stroke="#2563EB" stroke-width="2" stroke-linejoin="round" />
+  
+  <!-- Bold Stylized Academic 'T' & Technical Compass/Torch -->
+  <path d="M22 21H42" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M32 21V44" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" />
+  
+  <!-- Precision Blue Pivot Dot / Beacon of Knowledge -->
+  <circle cx="32" cy="21" r="3" fill="#2563EB" />
+  <circle cx="32" cy="45" r="2.5" fill="#2563EB" />
+  
+  <!-- Foundation Wings / Open Pages -->
+  <path d="M25 48C28 47 32 47 32 47C32 47 36 47 39 48" stroke="#2563EB" stroke-width="2.5" stroke-linecap="round" />
+</svg>
